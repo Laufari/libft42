@@ -12,33 +12,18 @@ Código de Alta Calidad: Estructurado siguiendo la norma de codificación 42, as
 Gestión de Memoria Segura: Uso estricto de malloc, free y write para asegurar una correcta gestión de memoria sin filtraciones.
 🛠️ Instalación y Uso
 Para compilar y crear la biblioteca, ejecuta el siguiente comando en tu terminal:
-sh
-Copiar
-Editar
 make
 
 Esto generará el archivo libft.a, que podrás incluir en cualquier proyecto de C con:
-c
-Copiar
-Editar
 #include "libft.h"
 
 Si deseas limpiar archivos temporales y objetos generados durante la compilación:
-sh
-Copiar
-Editar
 make clean
 
 Para eliminar completamente los archivos generados, incluyendo la biblioteca estática libft.a:
-sh
-Copiar
-Editar
 make fclean
 
 Y para recompilar desde cero:
-sh
-Copiar
-Editar
 make re
 
 📖 Funciones Implementadas
@@ -67,9 +52,6 @@ se puede optar por implementar una serie de funciones opcionales para gestionar 
 ft_lstnew, ft_lstadd_front, ft_lstsize, ft_lstlast
 ft_lstadd_back, ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap
 📌 Ejemplo de Uso de Listas Enlazadas
-c
-Copiar
-Editar
 typedef struct s_list
 {
     void            *content;
@@ -97,8 +79,7 @@ Este proyecto es parte del currículo de la escuela 42, y sigue sus lineamientos
 
 🎯 Libft es una base sólida para cualquier proyecto en C, ya sea académico o profesional. 
 Con esta biblioteca, se puede simplificar el desarrollo de aplicaciones en C mientras se gana experiencia con la gestión de memoria
-y la creación de estructuras de datos eficientes. ¡Empieza a aprovechar la potencia de Libft en tus próximos proyectos!
+y la creación de estructuras de datos eficientes.
 
-🎯 Libft es tu primer paso para escribir código C eficiente y reutilizable. ¡Aprovéchala al máximo!
 
 Laura Farina
