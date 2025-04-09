@@ -1,7 +1,6 @@
 Libft
 
 Libft es una biblioteca estándar personalizada en C, diseñada para proporcionar una colección de funciones útiles
-que extienden y mejoran las capacidades de la biblioteca estándar de C (libc).
 Esta biblioteca servirá como una base sólida para futuros proyectos en C.
 
 📌 Características Principales
